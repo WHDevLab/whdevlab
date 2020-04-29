@@ -3,3 +3,6 @@ sudo gem install cocoapods
 
 sudo easy_install pip
 pip install requests
+
+defaults write com.apple.screencapture location ~/Desktop/screenshot
+killall SystemUIServer
